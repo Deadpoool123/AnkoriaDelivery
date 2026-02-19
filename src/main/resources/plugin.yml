@@ -1,0 +1,12 @@
+name: AnkoriaDelivery
+main: online.ankoria.delivery.AnkoriaDeliveryPlugin
+version: 1.0.0
+api-version: 1.13
+author: AnkoriaNetwork
+commands:
+  deliveryreload:
+    description: Reload AnkoriaDelivery config
+    permission: ankoriadelivery.reload
+permissions:
+  ankoriadelivery.reload:
+    default: op

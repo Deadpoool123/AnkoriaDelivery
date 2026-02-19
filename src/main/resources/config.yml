@@ -1,0 +1,12 @@
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "loginsystem"
+  user: "root"
+  password: ""
+  useSSL: false
+
+poll-interval-ticks: 20  # 20 tick = 1 saniye
+max-per-poll: 10
+
+# Placeholder: {player}
