@@ -1,0 +1,15 @@
+Purpur 1.21.11 için HAZIR JAR Alma (Program kurmadan)
+=============================================
+
+Bu proje Maven + GitHub Actions ile 30 saniyede jar üretir.
+Bilgisayara IntelliJ/Gradle kurmana gerek yok.
+
+1) GitHub hesabın yoksa aç.
+2) Yeni repo oluştur: AnkoriaDelivery
+3) Bu klasördeki HER ŞEYİ repo'ya upload et (pom.xml ve src klasörleri dahil)
+4) Repo içinde: Actions sekmesi > "Build AnkoriaDelivery Jar" > Run workflow
+5) Bittikten sonra Actions run içine gir, "Artifacts" bölümünden AnkoriaDelivery-jar indir.
+6) İçinden çıkan .jar'ı server/plugins içine at.
+7) plugins/AnkoriaDelivery/config.yml içinde MySQL ayarlarını gir ve serverı aç.
+
+Jar dosyası: AnkoriaDelivery-1.0.0.jar (artifact içinde target/ klasöründen gelir)
